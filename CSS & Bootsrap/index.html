@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DINOSITE-SURVEY</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 style="margin: 15px 20px;">
+    <img src="dinosite.png" width="300px">MEMBERSHIP
+  </h1>
+  <nav class="navbar navbar-expand-sm bg-body-tertiary" class="navbar bg-dark border-bottom border-body"
+    data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">DINO-Membership</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="biodata.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              DINO-BIO
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="biodata.html">Profile (Me)</a></li>
+              <li><a class="dropdown-item" href="fren.html">Friend List</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="form1">
+    <h2 style="margin-bottom: 20px;">
+      <center>Membership Form</center>
+    </h2>
+  <form method="post" action="action.html">
+    <div class="mb-3">
+      <label for="FullName" class="form-label">Member's Name</label>
+      <input class="form-control" type="text" placeholder="Full Name" aria-label="default input example">
+    </div>
+    <div class="mb-3">
+      <label for="address" class="form-label">Gender</label>
+      <div class="mb-3">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="male">
+        <label class="form-check-label" for="male">
+          Male
+        </label>
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="fmale">
+        <label class="form-check-label" for="fmale">
+          Female
+        </label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="no_telp" class="form-label">Telp. Number</label>
+      <input class="form-control" type="text" aria-label="default input example">
+    </div>
+    <div class="mb-3">
+      <label for="Address" class="form-label">Address</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="lvl_memb" class="form-label">Membership Level</label> 
+      <select class="form-select form-select-sm" aria-label="Small select example">
+        <option selected>Reguler</option>
+        <option value="1">VIP</option>
+        <option value="2">VVIP</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="topic" class="form-label">Topic Preference</label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="cb1">
+        <label class="form-check-label" for="cb1">Light Topic [memes, jokes, etc]</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="cb3">
+        <label class="form-check-label" for="cb3">Moderate Topic [science, politics, economic, etc]</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="cb2">
+        <label class="form-check-label" for="cb2">Deep Topic [Secret of secret]</label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="setting" class="form-label">Membership Setting</label>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="set1">
+        <label class="form-check-label" for="set1">Daily News Notification</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="set2">
+        <label class="form-check-label" for="set2">Do not use voucher immediately</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="set3">
+        <label class="form-check-label" for="set3">Prioritize HOT News</label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="notif" class="form-label">How DINO are you?</label>
+      <input type="range" class="form-range" min="0" max="10" step="1" id="notif">
+    </div>
+    <div class="mb-3">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+<footer>
+  <div class="text-bg-dark p-3">
+    <center>© dino-company</center> 
+  </div>
+</footer>
+</html>

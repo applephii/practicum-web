@@ -1,0 +1,45 @@
+#form1{
+    margin: 70px auto;
+}
+#backhome{
+    border-radius: 30px; 
+    width: 90px; 
+    height: 40px;
+    border-color: black;
+    background-color: gainsboro;
+}
+#backhome:hover{
+    border-radius: 30px; 
+    width: 90px; 
+    height: 40px;
+    border-color: gainsboro;
+    background-color: rgb(232, 230, 230);
+}
+#me{
+    background-color: black;
+    color: white;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#addrs{
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+#yuu{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 5px;
+    color: brown;
+}
+#m1{
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+
+}
