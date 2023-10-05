@@ -73,8 +73,8 @@
                     <div class="col" style="margin-right: 40px">
                         <table class="table table-striped">
                             <tr>
-                                <td><b>Nominal</b></td>
-                                <td><b>Amount</b></td>
+                                <th>NOminal</th>
+                                <th>Amount</th>
                             </tr>
                             <tr>
                                 <td>100.000</td>
